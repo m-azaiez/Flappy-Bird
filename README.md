@@ -1,15 +1,15 @@
-🐦 Flappy Bird – Python (Pygame)
+# 🐦 Flappy Bird – Python (Pygame)
 
 A simplified recreation of the classic Flappy Bird game built with Python and Pygame.
 
 This project was developed as part of the INF1007 – Programming I course.
 The graphical interface and overall structure were provided, and the core game logic was implemented from scratch.
 
-⸻
 
-🎮 Game Overview
 
-In this arcade-style game:
+# 🎮 Game Overview
+
+	In this arcade-style game:
 	•	The bird automatically moves forward
 	•	The player presses SPACE to make the bird jump
 	•	The goal is to pass between pairs of pipes
@@ -21,13 +21,13 @@ In this arcade-style game:
 	•	The game ends when all lives are lost
 	•	Press R to restart after Game Over
 
-Each pair of pipes gives 1 point (0.5 per pipe).
+	Each pair of pipes gives 1 point (0.5 per pipe).
 
-⸻
 
-🧠 What I Implemented
 
-The following mechanics were fully implemented:
+# 🧠 What I Implemented
+
+	The following mechanics were fully implemented:
 	•	Gravity system
 	•	Jump impulse logic
 	•	Dynamic pipe generation with random gap
@@ -39,17 +39,17 @@ The following mechanics were fully implemented:
 	•	Game restart logic
 	•	Game Over state handling
 
-⸻
 
-🗂 Project Structure
-flappy_bird/
-├── assets/
-├── bird.py
-├── pipes.py
-├── config.py
-├── window.py
-├── game.py
-└── main.py
+
+# 🗂 Project Structure
+	flappy_bird/
+	├── assets/
+	├── bird.py
+	├── pipes.py
+	├── config.py
+	├── window.py
+	├── game.py
+	└── main.py
 
 	•	bird.py → Bird state & initialization
 	•	pipes.py → Pipe images & configuration
@@ -58,22 +58,22 @@ flappy_bird/
 	•	main.py → Game loop & input handling
 
 
-⚙️ Installation
+# ⚙️ Installation
 
-Make sure Python is installed.
+	Make sure Python is installed.
+	
+	Install Pygame:  
+	
+	pip install -U pygame
+	
+	
+	Run the game:
+	
+	python main.py
 
-Install Pygame:  
-
-pip install -U pygame
 
 
-Run the game:
-
-python main.py
-
-
-
-📚 Technical Concepts Used
+# 📚 Technical Concepts Used
 	•	Game loop architecture
 	•	Event-driven programming
 	•	Physics simulation (gravity & velocity)
@@ -82,11 +82,11 @@ python main.py
 	•	Object representation using dictionaries
 	•	Modular file structure
 
-⸻
 
-🚀 Purpose of the Project
 
-This project was built for learning purposes to:
+# 🚀 Purpose of the Project
+
+	This project was built for learning purposes to:
 	•	Understand game architecture in Python
 	•	Practice structuring a multi-file project
 	•	Apply physics concepts in code
